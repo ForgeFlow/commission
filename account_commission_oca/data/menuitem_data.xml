@@ -3,9 +3,6 @@
     <record id="menu_invoicing_commission" model="ir.ui.menu">
         <field name="name">Commissions</field>
         <field name="sequence" eval="10" />
-        <field
-            name="parent_id"
-            search="[('child_id', 'in', ref('account.menu_finance_receivables'))]"
-        />
+        <field name="parent_id" ref="accountant.menu_accounting" />
     </record>
 </odoo>

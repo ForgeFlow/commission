@@ -8,6 +8,7 @@
     "category": "Sales Management",
     "license": "AGPL-3",
     "depends": [
+        "accountant",
         "account",
         "commission_oca",
     ],
