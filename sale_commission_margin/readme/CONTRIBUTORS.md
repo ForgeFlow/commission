@@ -1,1 +1,0 @@
--Luis Rodríguez <luis.rodriguez@dixmit.com> (www.dixmit.com)

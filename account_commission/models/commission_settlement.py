@@ -94,7 +94,7 @@ class CommissionSettlement(models.Model):
                     (
                         "code",
                         "=",
-                        partner.lang or self.env.context.get("lang", "en_US"),
+                        self.agent_id.lang or self.env.context.get("lang", "en_US"),
                     )
                 ]
             )
